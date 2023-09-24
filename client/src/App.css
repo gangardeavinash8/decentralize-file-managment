@@ -1,0 +1,131 @@
+* {
+  transition: 0.2s ease;
+}
+.card {
+  background-color: #1919198a;
+  border-radius: 30px;
+  backdrop-filter: blur(15px);
+  padding: 4rem 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: "Arvo";
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  width: min-content;
+  min-width: 400px;
+}
+h1 {
+  font-family: Poppins, sans-serif;
+  color: #fcffd4;
+  font-size: 4em;
+  text-shadow: 0 0 30px black;
+}
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(173, 173, 173, 0.029);
+  backdrop-filter: contrast(0.8);
+  z-index: -2;
+}
+p {
+  font-size: 1.2em;
+  text-wrap: wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+.choose-file {
+  font-family: Poppins;
+}
+button,
+input::file-selector-button {
+  display: block;
+  background-color: yellow;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  font-family: Arvo;
+  transition: 0.2s ease;
+  font-size: 1.2em;
+  font-weight: 800;
+  color: #000;
+}
+.choose-file {
+  display: block;
+  width: 100vw;
+  height: max-content;
+  width: max-content;
+  padding: 1rem 1.6rem;
+}
+button:hover,
+input::file-selector-button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+input {
+  font-size: 1em;
+}
+input[type="text"] {
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: rgb(0, 255, 136);
+  border: none;
+  font-size: 1.5rem;
+  color: #3d3d3d;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  gap: 1rem;
+  font-size: 1.2em;
+}
+strong {
+  font-size: 1.3em;
+  padding: 1.2em;
+}
+.mode-selector {
+  margin-top: auto;
+  margin-bottom: 2rem;
+  width: 30vw;
+  padding: 2rem;
+  font-size: 2em;
+  background-color: #ff000075;
+  backdrop-filter: blur(8px);
+  color: #ffcd4e;
+}
+.share{
+  background-color: rgb(212, 212, 18);
+  color:black;
+  width:20%;
+}
+.share:hover{
+  background-color: #ffcd4e;
+}
+h1 img {
+  height: 1.5em;
+  transform: translate(0, 25%);
+}
+.document {
+  background-color: #1c1c1c;
+  font-size: 1.5vw;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #cecece;
+  min-width: 400px;
+}
+.document:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px black;
+}
+a {
+  text-decoration: none;
+}
+.white {
+  background-color: #9292928e;
+}
